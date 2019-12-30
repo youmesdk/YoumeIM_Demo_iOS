@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A6FACC217608BC00B83581 /* AliyunNlsSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A6FACB217608BB00B83581 /* AliyunNlsSdk.framework */; };
+		04A6FACF2176093600B83581 /* AliyunNlsSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A6FACB217608BB00B83581 /* AliyunNlsSdk.framework */; };
+		04A6FAD02176093600B83581 /* AliyunNlsSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04A6FACB217608BB00B83581 /* AliyunNlsSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04A6FAD221760E2700B83581 /* USCModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A6FACD217608BF00B83581 /* USCModule.framework */; };
+		04D2CF4D2176D40100C02EAE /* YIMCallbackBlock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04D2CF4C2176D40100C02EAE /* YIMCallbackBlock.mm */; };
+		04D2CF512176D45600C02EAE /* YIMClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04D2CF502176D45600C02EAE /* YIMClient.mm */; };
+		AF837DA91DD45CBE00CF02B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF837DA81DD45CBE00CF02B9 /* main.m */; };
+		AF837DAC1DD45CBE00CF02B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF837DAB1DD45CBE00CF02B9 /* AppDelegate.m */; };
+		AF837DAF1DD45CBE00CF02B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF837DAE1DD45CBE00CF02B9 /* ViewController.m */; };
+		AF837DB21DD45CBE00CF02B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF837DB01DD45CBE00CF02B9 /* Main.storyboard */; };
+		AF837DB41DD45CBE00CF02B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF837DB31DD45CBE00CF02B9 /* Assets.xcassets */; };
+		AF837DB71DD45CBE00CF02B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF837DB51DD45CBE00CF02B9 /* LaunchScreen.storyboard */; };
+		AF837DC21DD45CBE00CF02B9 /* YIMiOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF837DC11DD45CBE00CF02B9 /* YIMiOSDemoTests.m */; };
+		AF837DCD1DD45CBE00CF02B9 /* YIMiOSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF837DCC1DD45CBE00CF02B9 /* YIMiOSDemoUITests.m */; };
+		AF837DF21DD45E8A00CF02B9 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837DF11DD45E8A00CF02B9 /* libc++.1.tbd */; };
+		AF837DF41DD45E8F00CF02B9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837DF31DD45E8F00CF02B9 /* libsqlite3.0.tbd */; };
+		AF837DF61DD45E9600CF02B9 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837DF51DD45E9600CF02B9 /* libresolv.9.tbd */; };
+		AF837DF81DD45E9D00CF02B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837DF71DD45E9D00CF02B9 /* SystemConfiguration.framework */; };
+		AF837DFC1DD45EAD00CF02B9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837DFB1DD45EAD00CF02B9 /* libz.tbd */; };
+		AF837DFE1DD45EB400CF02B9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837DFD1DD45EB400CF02B9 /* CoreTelephony.framework */; };
+		AF837E011DD4602F00CF02B9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837E001DD4602F00CF02B9 /* AddressBook.framework */; };
+		AF837E041DD4606000CF02B9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837E031DD4606000CF02B9 /* AudioToolbox.framework */; };
+		AF837E061DD4606700CF02B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF837E051DD4606700CF02B9 /* AVFoundation.framework */; };
+		AFE3D6061DEC189F007949FB /* YIMImplement.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFE3D5FB1DEC189F007949FB /* YIMImplement.mm */; };
+		AFE3D6071DEC189F007949FB /* YIMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE3D5FD1DEC189F007949FB /* YIMMessage.m */; };
+		AFE3D6081DEC189F007949FB /* YIMService.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFE3D6001DEC189F007949FB /* YIMService.mm */; };
+		AFE3D6091DEC189F007949FB /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE3D6021DEC189F007949FB /* iflyMSC.framework */; };
+		AFE3D60B1DEC189F007949FB /* libyim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE3D6041DEC189F007949FB /* libyim.a */; };
+		AFFB5B8C1EFD1C8100AD6B05 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFB5B8B1EFD1C7500AD6B05 /* Contacts.framework */; };
+		BEA02F361EB8252C001CECB0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA02F351EB8252C001CECB0 /* CoreLocation.framework */; };
+		BEFB76621F25EC2800D00B38 /* libYouMeCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFB76611F25EC2800D00B38 /* libYouMeCommon.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF837DBE1DD45CBE00CF02B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF837D9C1DD45CBE00CF02B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF837DA31DD45CBE00CF02B9;
+			remoteInfo = YIMiOSDemo;
+		};
+		AF837DC91DD45CBE00CF02B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF837D9C1DD45CBE00CF02B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF837DA31DD45CBE00CF02B9;
+			remoteInfo = YIMiOSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A6FAD12176093600B83581 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04A6FAD02176093600B83581 /* AliyunNlsSdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A6FACB217608BB00B83581 /* AliyunNlsSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunNlsSdk.framework; path = im_ios/lib/AliyunNlsSdk.framework; sourceTree = "<group>"; };
+		04A6FACD217608BF00B83581 /* USCModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = USCModule.framework; path = im_ios/lib/USCModule.framework; sourceTree = "<group>"; };
+		04D2CF4C2176D40100C02EAE /* YIMCallbackBlock.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = YIMCallbackBlock.mm; path = im_ios/include/YIMCallbackBlock.mm; sourceTree = "<group>"; };
+		04D2CF4E2176D44000C02EAE /* YIMCallbackBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMCallbackBlock.h; sourceTree = "<group>"; };
+		04D2CF4F2176D44000C02EAE /* YIMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMClient.h; sourceTree = "<group>"; };
+		04D2CF502176D45600C02EAE /* YIMClient.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = YIMClient.mm; path = im_ios/include/YIMClient.mm; sourceTree = "<group>"; };
+		AF837DA41DD45CBE00CF02B9 /* YIMiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIMiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF837DA81DD45CBE00CF02B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF837DAA1DD45CBE00CF02B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF837DAB1DD45CBE00CF02B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF837DAD1DD45CBE00CF02B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF837DAE1DD45CBE00CF02B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF837DB11DD45CBE00CF02B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF837DB31DD45CBE00CF02B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF837DB61DD45CBE00CF02B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF837DB81DD45CBE00CF02B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF837DBD1DD45CBE00CF02B9 /* YIMiOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIMiOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF837DC11DD45CBE00CF02B9 /* YIMiOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIMiOSDemoTests.m; sourceTree = "<group>"; };
+		AF837DC31DD45CBE00CF02B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF837DC81DD45CBE00CF02B9 /* YIMiOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIMiOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF837DCC1DD45CBE00CF02B9 /* YIMiOSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIMiOSDemoUITests.m; sourceTree = "<group>"; };
+		AF837DCE1DD45CBE00CF02B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF837DF11DD45E8A00CF02B9 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		AF837DF31DD45E8F00CF02B9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AF837DF51DD45E9600CF02B9 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		AF837DF71DD45E9D00CF02B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AF837DF91DD45EA600CF02B9 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		AF837DFB1DD45EAD00CF02B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AF837DFD1DD45EB400CF02B9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AF837E001DD4602F00CF02B9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		AF837E031DD4606000CF02B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AF837E051DD4606700CF02B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AFE3D5F81DEC189F007949FB /* YIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIM.h; sourceTree = "<group>"; };
+		AFE3D5F91DEC189F007949FB /* YIMCallbackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMCallbackProtocol.h; sourceTree = "<group>"; };
+		AFE3D5FA1DEC189F007949FB /* YIMImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMImplement.h; sourceTree = "<group>"; };
+		AFE3D5FB1DEC189F007949FB /* YIMImplement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YIMImplement.mm; sourceTree = "<group>"; };
+		AFE3D5FC1DEC189F007949FB /* YIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMMessage.h; sourceTree = "<group>"; };
+		AFE3D5FD1DEC189F007949FB /* YIMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIMMessage.m; sourceTree = "<group>"; };
+		AFE3D5FE1DEC189F007949FB /* YIMPlatformDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMPlatformDefine.h; sourceTree = "<group>"; };
+		AFE3D5FF1DEC189F007949FB /* YIMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIMService.h; sourceTree = "<group>"; };
+		AFE3D6001DEC189F007949FB /* YIMService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YIMService.mm; sourceTree = "<group>"; };
+		AFE3D6021DEC189F007949FB /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		AFE3D6031DEC189F007949FB /* libycommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libycommon.a; sourceTree = "<group>"; };
+		AFE3D6041DEC189F007949FB /* libyim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyim.a; sourceTree = "<group>"; };
+		AFFB5B8B1EFD1C7500AD6B05 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		BEA02F351EB8252C001CECB0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BEFB76611F25EC2800D00B38 /* libYouMeCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYouMeCommon.a; path = im_ios/lib/libYouMeCommon.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF837DA11DD45CBE00CF02B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFB5B8C1EFD1C8100AD6B05 /* Contacts.framework in Frameworks */,
+				BEA02F361EB8252C001CECB0 /* CoreLocation.framework in Frameworks */,
+				AF837E061DD4606700CF02B9 /* AVFoundation.framework in Frameworks */,
+				04A6FACF2176093600B83581 /* AliyunNlsSdk.framework in Frameworks */,
+				AF837E041DD4606000CF02B9 /* AudioToolbox.framework in Frameworks */,
+				AF837E011DD4602F00CF02B9 /* AddressBook.framework in Frameworks */,
+				AF837DFE1DD45EB400CF02B9 /* CoreTelephony.framework in Frameworks */,
+				BEFB76621F25EC2800D00B38 /* libYouMeCommon.a in Frameworks */,
+				AF837DFC1DD45EAD00CF02B9 /* libz.tbd in Frameworks */,
+				AF837DF81DD45E9D00CF02B9 /* SystemConfiguration.framework in Frameworks */,
+				AF837DF61DD45E9600CF02B9 /* libresolv.9.tbd in Frameworks */,
+				AF837DF41DD45E8F00CF02B9 /* libsqlite3.0.tbd in Frameworks */,
+				AFE3D60B1DEC189F007949FB /* libyim.a in Frameworks */,
+				AFE3D6091DEC189F007949FB /* iflyMSC.framework in Frameworks */,
+				04A6FACC217608BC00B83581 /* AliyunNlsSdk.framework in Frameworks */,
+				04A6FAD221760E2700B83581 /* USCModule.framework in Frameworks */,
+				AF837DF21DD45E8A00CF02B9 /* libc++.1.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF837DBA1DD45CBE00CF02B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF837DC51DD45CBE00CF02B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF837D9B1DD45CBE00CF02B9 = {
+			isa = PBXGroup;
+			children = (
+				04D2CF502176D45600C02EAE /* YIMClient.mm */,
+				04D2CF4C2176D40100C02EAE /* YIMCallbackBlock.mm */,
+				AF837DDA1DD45D1100CF02B9 /* YIM */,
+				AF837DA61DD45CBE00CF02B9 /* YIMiOSDemo */,
+				AF837DC01DD45CBE00CF02B9 /* YIMiOSDemoTests */,
+				AF837DCB1DD45CBE00CF02B9 /* YIMiOSDemoUITests */,
+				AF837DA51DD45CBE00CF02B9 /* Products */,
+				AF837DF01DD45E8900CF02B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF837DA51DD45CBE00CF02B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF837DA41DD45CBE00CF02B9 /* YIMiOSDemo.app */,
+				AF837DBD1DD45CBE00CF02B9 /* YIMiOSDemoTests.xctest */,
+				AF837DC81DD45CBE00CF02B9 /* YIMiOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF837DA61DD45CBE00CF02B9 /* YIMiOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF837DAA1DD45CBE00CF02B9 /* AppDelegate.h */,
+				AF837DAB1DD45CBE00CF02B9 /* AppDelegate.m */,
+				AF837DAD1DD45CBE00CF02B9 /* ViewController.h */,
+				AF837DAE1DD45CBE00CF02B9 /* ViewController.m */,
+				AF837DB01DD45CBE00CF02B9 /* Main.storyboard */,
+				AF837DB31DD45CBE00CF02B9 /* Assets.xcassets */,
+				AF837DB51DD45CBE00CF02B9 /* LaunchScreen.storyboard */,
+				AF837DB81DD45CBE00CF02B9 /* Info.plist */,
+				AF837DA71DD45CBE00CF02B9 /* Supporting Files */,
+			);
+			path = YIMiOSDemo;
+			sourceTree = "<group>";
+		};
+		AF837DA71DD45CBE00CF02B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF837DA81DD45CBE00CF02B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF837DC01DD45CBE00CF02B9 /* YIMiOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF837DC11DD45CBE00CF02B9 /* YIMiOSDemoTests.m */,
+				AF837DC31DD45CBE00CF02B9 /* Info.plist */,
+			);
+			path = YIMiOSDemoTests;
+			sourceTree = "<group>";
+		};
+		AF837DCB1DD45CBE00CF02B9 /* YIMiOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF837DCC1DD45CBE00CF02B9 /* YIMiOSDemoUITests.m */,
+				AF837DCE1DD45CBE00CF02B9 /* Info.plist */,
+			);
+			path = YIMiOSDemoUITests;
+			sourceTree = "<group>";
+		};
+		AF837DDA1DD45D1100CF02B9 /* YIM */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3D5F41DEC189F007949FB /* im_ios */,
+			);
+			name = YIM;
+			sourceTree = "<group>";
+		};
+		AF837DF01DD45E8900CF02B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A6FACD217608BF00B83581 /* USCModule.framework */,
+				04A6FACB217608BB00B83581 /* AliyunNlsSdk.framework */,
+				BEFB76611F25EC2800D00B38 /* libYouMeCommon.a */,
+				AFFB5B8B1EFD1C7500AD6B05 /* Contacts.framework */,
+				BEA02F351EB8252C001CECB0 /* CoreLocation.framework */,
+				AF837E051DD4606700CF02B9 /* AVFoundation.framework */,
+				AF837E031DD4606000CF02B9 /* AudioToolbox.framework */,
+				AF837E001DD4602F00CF02B9 /* AddressBook.framework */,
+				AF837DFD1DD45EB400CF02B9 /* CoreTelephony.framework */,
+				AF837DFB1DD45EAD00CF02B9 /* libz.tbd */,
+				AF837DF91DD45EA600CF02B9 /* libz.1.1.3.tbd */,
+				AF837DF71DD45E9D00CF02B9 /* SystemConfiguration.framework */,
+				AF837DF51DD45E9600CF02B9 /* libresolv.9.tbd */,
+				AF837DF31DD45E8F00CF02B9 /* libsqlite3.0.tbd */,
+				AF837DF11DD45E8A00CF02B9 /* libc++.1.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE3D5F41DEC189F007949FB /* im_ios */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3D5F51DEC189F007949FB /* include */,
+				AFE3D6011DEC189F007949FB /* lib */,
+			);
+			path = im_ios;
+			sourceTree = "<group>";
+		};
+		AFE3D5F51DEC189F007949FB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				04D2CF4E2176D44000C02EAE /* YIMCallbackBlock.h */,
+				04D2CF4F2176D44000C02EAE /* YIMClient.h */,
+				AFE3D5F81DEC189F007949FB /* YIM.h */,
+				AFE3D5F91DEC189F007949FB /* YIMCallbackProtocol.h */,
+				AFE3D5FA1DEC189F007949FB /* YIMImplement.h */,
+				AFE3D5FB1DEC189F007949FB /* YIMImplement.mm */,
+				AFE3D5FC1DEC189F007949FB /* YIMMessage.h */,
+				AFE3D5FD1DEC189F007949FB /* YIMMessage.m */,
+				AFE3D5FE1DEC189F007949FB /* YIMPlatformDefine.h */,
+				AFE3D5FF1DEC189F007949FB /* YIMService.h */,
+				AFE3D6001DEC189F007949FB /* YIMService.mm */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AFE3D6011DEC189F007949FB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3D6021DEC189F007949FB /* iflyMSC.framework */,
+				AFE3D6031DEC189F007949FB /* libycommon.a */,
+				AFE3D6041DEC189F007949FB /* libyim.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF837DA31DD45CBE00CF02B9 /* YIMiOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF837DD11DD45CBE00CF02B9 /* Build configuration list for PBXNativeTarget "YIMiOSDemo" */;
+			buildPhases = (
+				AF837DA01DD45CBE00CF02B9 /* Sources */,
+				AF837DA11DD45CBE00CF02B9 /* Frameworks */,
+				AF837DA21DD45CBE00CF02B9 /* Resources */,
+				04A6FAD12176093600B83581 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YIMiOSDemo;
+			productName = YIMiOSDemo;
+			productReference = AF837DA41DD45CBE00CF02B9 /* YIMiOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF837DBC1DD45CBE00CF02B9 /* YIMiOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF837DD41DD45CBE00CF02B9 /* Build configuration list for PBXNativeTarget "YIMiOSDemoTests" */;
+			buildPhases = (
+				AF837DB91DD45CBE00CF02B9 /* Sources */,
+				AF837DBA1DD45CBE00CF02B9 /* Frameworks */,
+				AF837DBB1DD45CBE00CF02B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF837DBF1DD45CBE00CF02B9 /* PBXTargetDependency */,
+			);
+			name = YIMiOSDemoTests;
+			productName = YIMiOSDemoTests;
+			productReference = AF837DBD1DD45CBE00CF02B9 /* YIMiOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF837DC71DD45CBE00CF02B9 /* YIMiOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF837DD71DD45CBE00CF02B9 /* Build configuration list for PBXNativeTarget "YIMiOSDemoUITests" */;
+			buildPhases = (
+				AF837DC41DD45CBE00CF02B9 /* Sources */,
+				AF837DC51DD45CBE00CF02B9 /* Frameworks */,
+				AF837DC61DD45CBE00CF02B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF837DCA1DD45CBE00CF02B9 /* PBXTargetDependency */,
+			);
+			name = YIMiOSDemoUITests;
+			productName = YIMiOSDemoUITests;
+			productReference = AF837DC81DD45CBE00CF02B9 /* YIMiOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF837D9C1DD45CBE00CF02B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "余俊澎";
+				TargetAttributes = {
+					AF837DA31DD45CBE00CF02B9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NUZXKA7782;
+						ProvisioningStyle = Manual;
+					};
+					AF837DBC1DD45CBE00CF02B9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NUZXKA7782;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF837DA31DD45CBE00CF02B9;
+					};
+					AF837DC71DD45CBE00CF02B9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NUZXKA7782;
+						ProvisioningStyle = Manual;
+						TestTargetID = AF837DA31DD45CBE00CF02B9;
+					};
+				};
+			};
+			buildConfigurationList = AF837D9F1DD45CBE00CF02B9 /* Build configuration list for PBXProject "YIMiOSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = AF837D9B1DD45CBE00CF02B9;
+			productRefGroup = AF837DA51DD45CBE00CF02B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF837DA31DD45CBE00CF02B9 /* YIMiOSDemo */,
+				AF837DBC1DD45CBE00CF02B9 /* YIMiOSDemoTests */,
+				AF837DC71DD45CBE00CF02B9 /* YIMiOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF837DA21DD45CBE00CF02B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF837DB71DD45CBE00CF02B9 /* LaunchScreen.storyboard in Resources */,
+				AF837DB41DD45CBE00CF02B9 /* Assets.xcassets in Resources */,
+				AF837DB21DD45CBE00CF02B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF837DBB1DD45CBE00CF02B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF837DC61DD45CBE00CF02B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF837DA01DD45CBE00CF02B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D2CF512176D45600C02EAE /* YIMClient.mm in Sources */,
+				04D2CF4D2176D40100C02EAE /* YIMCallbackBlock.mm in Sources */,
+				AF837DAF1DD45CBE00CF02B9 /* ViewController.m in Sources */,
+				AFE3D6081DEC189F007949FB /* YIMService.mm in Sources */,
+				AF837DAC1DD45CBE00CF02B9 /* AppDelegate.m in Sources */,
+				AF837DA91DD45CBE00CF02B9 /* main.m in Sources */,
+				AFE3D6061DEC189F007949FB /* YIMImplement.mm in Sources */,
+				AFE3D6071DEC189F007949FB /* YIMMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF837DB91DD45CBE00CF02B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF837DC21DD45CBE00CF02B9 /* YIMiOSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF837DC41DD45CBE00CF02B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF837DCD1DD45CBE00CF02B9 /* YIMiOSDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF837DBF1DD45CBE00CF02B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF837DA31DD45CBE00CF02B9 /* YIMiOSDemo */;
+			targetProxy = AF837DBE1DD45CBE00CF02B9 /* PBXContainerItemProxy */;
+		};
+		AF837DCA1DD45CBE00CF02B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF837DA31DD45CBE00CF02B9 /* YIMiOSDemo */;
+			targetProxy = AF837DC91DD45CBE00CF02B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF837DB01DD45CBE00CF02B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF837DB11DD45CBE00CF02B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF837DB51DD45CBE00CF02B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF837DB61DD45CBE00CF02B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF837DCF1DD45CBE00CF02B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF837DD01DD45CBE00CF02B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF837DD21DD45CBE00CF02B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NUZXKA7782;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/youme_im_engine_ios/Lib",
+					"$(PROJECT_DIR)/im_ios/lib",
+				);
+				INFOPLIST_FILE = YIMiOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/youme_im_engine_ios/Lib",
+					"$(PROJECT_DIR)/im_ios/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.adfa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e3e3397-6e0c-4863-88d2-c5b5a58cbd68";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard;
+			};
+			name = Debug;
+		};
+		AF837DD31DD45CBE00CF02B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NUZXKA7782;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/youme_im_engine_ios/Lib",
+					"$(PROJECT_DIR)/im_ios/lib",
+				);
+				INFOPLIST_FILE = YIMiOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/youme_im_engine_ios/Lib",
+					"$(PROJECT_DIR)/im_ios/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.adfa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e3e3397-6e0c-4863-88d2-c5b5a58cbd68";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard;
+			};
+			name = Release;
+		};
+		AF837DD51DD45CBE00CF02B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NUZXKA7782;
+				INFOPLIST_FILE = YIMiOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.im.iosdemo.YIMiOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YIMiOSDemo.app/YIMiOSDemo";
+			};
+			name = Debug;
+		};
+		AF837DD61DD45CBE00CF02B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NUZXKA7782;
+				INFOPLIST_FILE = YIMiOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.im.iosdemo.YIMiOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YIMiOSDemo.app/YIMiOSDemo";
+			};
+			name = Release;
+		};
+		AF837DD81DD45CBE00CF02B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NUZXKA7782;
+				INFOPLIST_FILE = YIMiOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.im.iosdemo.YIMiOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_TARGET_NAME = YIMiOSDemo;
+			};
+			name = Debug;
+		};
+		AF837DD91DD45CBE00CF02B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NUZXKA7782;
+				INFOPLIST_FILE = YIMiOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youme.im.iosdemo.YIMiOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_TARGET_NAME = YIMiOSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF837D9F1DD45CBE00CF02B9 /* Build configuration list for PBXProject "YIMiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF837DCF1DD45CBE00CF02B9 /* Debug */,
+				AF837DD01DD45CBE00CF02B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF837DD11DD45CBE00CF02B9 /* Build configuration list for PBXNativeTarget "YIMiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF837DD21DD45CBE00CF02B9 /* Debug */,
+				AF837DD31DD45CBE00CF02B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF837DD41DD45CBE00CF02B9 /* Build configuration list for PBXNativeTarget "YIMiOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF837DD51DD45CBE00CF02B9 /* Debug */,
+				AF837DD61DD45CBE00CF02B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF837DD71DD45CBE00CF02B9 /* Build configuration list for PBXNativeTarget "YIMiOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF837DD81DD45CBE00CF02B9 /* Debug */,
+				AF837DD91DD45CBE00CF02B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF837D9C1DD45CBE00CF02B9 /* Project object */;
+}

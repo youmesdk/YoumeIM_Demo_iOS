@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "fa837761-b011-4839-9757-7ed91606020c++9063",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fa837761-b011-4839-9757-7ed91606020c++9063" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "client\/av\/SDKTest\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fa837761-b011-4839-9757-7ed91606020c++9063" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2D2DE218-0F90-485A-A930-6F252E05AD48",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fa837761-b011-4839-9757-7ed91606020c++9063" : "worksample\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YIMiOSDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/YIM\/YIM_iOS_2.x\/YIMiOSDemo\/YIMiOSDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.nxit.us:9888\/repos\/hellocat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fa837761-b011-4839-9757-7ed91606020c++9063"
+    }
+  ]
+}
